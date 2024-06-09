@@ -1,6 +1,6 @@
-const express = require('express');
-const { createExchange } = require('@compendiumfi/pendax/exchanges/exchange.js'); 
-require('dotenv').config();
+import express from 'express';
+import { createExchange } from '@compendiumfi/pendax/exchanges/exchange.js';
+import 'dotenv/config';
 
 // This Code May Need Further Review And Testing. Please Use With Caution
 
